@@ -1,0 +1,81 @@
+<html>
+    <body style="background-color: #2d2d2e">
+        <p align="center" class="title">WallpaperChanger</p>
+        <p align="center" class="txt">
+            Compatible with iOS 11.0+. Type "wallpaper" into Terminal to get started<br>
+            <br>
+            <a href="https://github.com/captinc/WallpaperChanger/" target="_blank" style="color: #797CFB">Source code</a><br>
+            <a href="https://www.reddit.com/r/jailbreak/comments/eguyrg/release_wallpaperchanger_change_wallpaper_from/" target="_blank" style="color: #797CFB">Reddit post</a><br>
+            </p>
+            
+        <p class="header">Features:</p>
+        <ul class="txt" style="margin-left: 50px; list-style-type: disc">
+            <li>Change your wallpaper to a specified image in your device's filesystem</li>
+            <li>Set appearance-aware wallpapers on iOS 13+ (One for light mode and one for dark mode. Not supported on iOS 12 and older)</li>
+            <li>Set normal wallpapers on iOS 11+ (single wallpaper for both light & dark mode)</li>
+            <li>Set only the lock screen wallpaper, only the home screen, or both</li>
+            <li>Enable/disable parallax (perspective zoom)</li>
+            </ul>
+
+        <p class="header">Usage:</p>
+        <ul class="txt" style="margin-left: 50px; list-style-type: disc">
+            <li>"-n" - Set a normal wallpaper. Specify the image path immediately after -n</li>
+            <li>"-a" - Set an appearance-aware wallpaper. Specify the light image path immediately after -a and the dark image path after that</li>
+            <li>Choose between -n and -a. Do not specify more than one</li>
+            <br>
+            <li>"-l" - Set only the lock screen wallpaper</li>
+            <li>"-h" - Set only the home screen wallpaper</li>
+            <li>"-b" - Set both wallpapers</li>
+            <li>Choose between -h, -l, and -b. Do not specify more than one</li>
+            <br>
+            <li>"-p" - Enable parallax (optional parameter - parallax is off by default)</li>
+            <li>"--help" - Show the help page</li>
+            <br>
+            <li>All arguments are required except -p</li>
+            <li>When using -n, be sure to specify only one path. When using -a, be sure to specify two paths</li>
+            <li>Appearance-aware wallpapers can only be used on iOS 13+</li>
+        </ul>
+        
+        <p class="header">Examples:</p>
+        <ul class="txt" style="margin-left: 50px">
+            <li>"wallpaper -n /var/mobile/Documents/dog.png -b"</li>
+                <ol class="txt" style="list-style-type: none">
+                    <li>Sets dog.png as a non-appearance-aware wallpaper for both the lock screen & home screen. Parallax is off. Works on iOS 11+</li>
+                    </ol>
+            <li>"wallpaper -a /var/mobile/Documents/light.jpg /var/mobile/Documents/dark.jpg -b -p"</li>
+                <ol class="txt" style="list-style-type: none">
+                    <li>Sets light.jpg as the wallpaper in light mode and dark.jpg for dark mode. Changes the home screen and lock screen. Parallax is on. Works on iOS 13+</li>
+                    </ol>
+            <li>"wallpaper -n /var/mobile/Documents/checkrain.png -h"</li>
+                <ol class="txt" style="list-style-type: none">
+                    <li>Sets checkrain.png as a normal wallpaper for only the home screen. Parallax is off. Works on iOS 11+</li></li>
+                    </ol>
+            </ul>
+        
+        <p class="header">Changelog</p>
+        <ol class="txt" style="list-style-type: none">
+            <li>v1.0 - released 12/28/19</li>
+            <ul class="txt" style="margin-left: 50px; list-style-type: disc">
+                <li>Initial release</li>
+                </ul>
+            </ol>
+        
+        <style>
+            .title {
+                font-size: 32px;
+                font-family: Helvetica Neue;
+                color: #FFFFFF;
+            }
+            .header {
+                font-size: 26px;
+                font-family: Helvetica Neue;
+                color: #FFFFFF;
+            }
+            .txt {
+                font-size: 18px;
+                font-family: Helvetica Neue;
+                color: #FFFFFF;
+            }
+            </style>
+        </body>
+    </html>
