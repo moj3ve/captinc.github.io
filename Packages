@@ -1,3 +1,19 @@
+Package: com.captinc.cercubedarkmode
+Name: CercubeDarkMode
+Depends: firmware (>=11.0), mobilesubstrate, me.alfhaily.cercube
+Author: Capt Inc
+Maintainer: Capt Inc
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: Dark mode in Cercube for YouTube
+Depiction: https://captinc.github.io/depictions/CercubeDarkMode/cercubedarkmode.html
+Version: 1.0
+Installed-Size: 136
+Filename: ./debs/com.captinc.cercubedarkmode_1.0_iphoneos-arm.deb
+Size: 6452
+MD5sum: dd67e6a39431d4266c1756cb77150278
+SHA256: 6bcf65642b88a1204e1532537aeff270e1d82a9a0647e3d83874f79ff784f0dc
+
 Package: com.captinc.wallpaperchanger
 Name: WallpaperChanger
 Depends: firmware (>=11.0)
