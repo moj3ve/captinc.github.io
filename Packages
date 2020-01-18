@@ -29,3 +29,19 @@ Filename: ./debs/com.captinc.wallpaperchanger_1.0_iphoneos-arm.deb
 Size: 6656
 MD5sum: 1986c5cb9e9405081ee859aef3179919
 SHA256: 967d798a2ffd123c1843716d2eb9b25c314b73f02f5c99227cdc067d87f439a0
+
+Package: com.captinc.wallpaperchanger
+Name: WallpaperChanger
+Version: 1.0.1
+Depends: firmware (>=11.0)
+Installed-Size: 132
+Author: Capt Inc <teamcaptinc@gmail.com>
+Maintainer: Capt Inc <teamcaptinc@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: Change wallpaper from command line
+Depiction: https://captinc.github.io/depictions/wallpaperchanger.html
+Filename: ./debs/com.captinc.wallpaperchanger_1.0.1_iphoneos-arm.deb
+Size: 6788
+MD5sum: 0568da0976996633be73f42bd1f89628
+SHA256: eff4a1e05cbedc8aa982d042949e533ad76ca44ac421cda7ff8b6a3584045118
