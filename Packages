@@ -14,6 +14,22 @@ Size: 6452
 MD5sum: dd67e6a39431d4266c1756cb77150278
 SHA256: 6bcf65642b88a1204e1532537aeff270e1d82a9a0647e3d83874f79ff784f0dc
 
+Package: com.captinc.cercubedarkmode
+Name: CercubeDarkMode
+Version: 1.1
+Depends: firmware (>=11.0), mobilesubstrate, me.alfhaily.cercube
+Installed-Size: 136
+Author: Capt Inc <teamcaptinc@gmail.com>
+Maintainer: Capt Inc <teamcaptinc@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: Dark mode in Cercube for YouTube
+Depiction: https://captinc.github.io/depictions/cercubedarkmode/cercubedarkmode.html
+Filename: ./debs/com.captinc.cercubedarkmode_1.1_iphoneos-arm.deb
+Size: 9136
+MD5sum: 072ec08a783d81800c6d436a1e61a933
+SHA256: 34203eb181d9299a6ec668bf298a6a33c9b0439a58f676d0cce5749593ffefb6
+
 Package: com.captinc.wallpaperchanger
 Name: WallpaperChanger
 Depends: firmware (>=11.0)
@@ -45,3 +61,19 @@ Filename: ./debs/com.captinc.wallpaperchanger_1.0.1_iphoneos-arm.deb
 Size: 6788
 MD5sum: 0568da0976996633be73f42bd1f89628
 SHA256: eff4a1e05cbedc8aa982d042949e533ad76ca44ac421cda7ff8b6a3584045118
+
+Package: com.captinc.youtubedarkmodesync
+Name: YouTubeDarkModeSync
+Version: 1.0
+Depends: firmware (>=13.0), mobilesubstrate
+Installed-Size: 168
+Author: Capt Inc <teamcaptinc@gmail.com>
+Maintainer: Capt Inc <teamcaptinc@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: Toggle YouTube's built-in dark mode with iOS 13's dark mode
+Depiction: https://captinc.github.io/depictions/youtubedarkmodesync.html
+Filename: ./debs/com.captinc.youtubedarkmodesync_1.0_iphoneos-arm.deb
+Size: 5004
+MD5sum: e5e6cd2b8898cd3a3ae461d834501273
+SHA256: b9e90eddd811e53d6c93e05d47e7f2d5e05c4dfa8917c8ff23a54468534c5fb9
