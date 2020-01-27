@@ -30,6 +30,22 @@ Size: 9136
 MD5sum: 072ec08a783d81800c6d436a1e61a933
 SHA256: 34203eb181d9299a6ec668bf298a6a33c9b0439a58f676d0cce5749593ffefb6
 
+Package: com.captinc.darkmodetoggle
+Name: DarkModeToggle
+Version: 1.0
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Installed-Size: 748
+Author: Capt Inc <teamcaptinc@gmail.com>
+Maintainer: Capt Inc <teamcaptinc@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: Enable/disable specific tweaks when toggling dark mode
+Depiction: https://captinc.github.io/depictions/darkmodetoggle/darkmodetoggle.html
+Filename: ./debs/com.captinc.darkmodetoggle_1.0_iphoneos-arm.deb
+Size: 50648
+MD5sum: 9a3a03352409c3f8ff05848c1a6f4f71
+SHA256: 9912f92650c2bce398f8859fc0f2168d0c30787d9c58994330bbc6ee083f31ae
+
 Package: com.captinc.wallpaperchanger
 Name: WallpaperChanger
 Depends: firmware (>=11.0)
