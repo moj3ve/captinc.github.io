@@ -1,3 +1,124 @@
+Package: com.captinc.batchomatic
+Name: Batchomatic
+Author: Capt Inc <captinc37@gmail.com>
+Maintainer: Capt Inc <captinc37@gmail.com>
+Depends: mobilesubstrate, gawk, coreutils
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Batch-install your tweaks, repos, saved .debs, tweak preferences, and hosts file!
+Version: 3.0.1
+Installed-Size: 496
+Filename: ./debs/com.captinc.batchomatic_3.0.1_iphoneos-arm.deb
+Size: 47116
+MD5sum: 944c59325c07bb3cfdde2e940c1fab88
+SHA256: 4cff9145797becaaeb6bb54c18c7247391daa1b5611ddb978699ea9577ba4d6e
+
+Package: com.captinc.batchomatic
+Name: Batchomatic
+Author: Capt Inc <captinc37@gmail.com>
+Maintainer: Capt Inc <captinc37@gmail.com>
+Depends: mobilesubstrate, gawk, coreutils
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Batch-install your tweaks, repos, saved .debs, tweak preferences, and hosts file!
+Version: 3.0
+Installed-Size: 496
+Filename: ./debs/com.captinc.batchomatic_3.0_iphoneos-arm.deb
+Size: 47040
+MD5sum: d7b1f0ad2b9eb300985069eb19e8ad8a
+SHA256: f0cac647ab9af172a786b08be49a039246549afe0c52b095d1b718da3c5623b3
+
+Package: com.captinc.batchomatic
+Name: Batchomatic
+Author: Capt Inc <captinc37@gmail.com>
+Maintainer: Capt Inc <captinc37@gmail.com>
+Depends: mobilesubstrate, gawk, coreutils
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Batch-install your tweaks, repos, saved .debs, tweak preferences, and hosts file!
+Version: 3.1
+Installed-Size: 500
+Filename: ./debs/com.captinc.batchomatic_3.1_iphoneos-arm.deb
+Size: 52524
+MD5sum: d6a41ce4d823369ad7a1cdeb7e6748b3
+SHA256: 876c1e3b10a9dfc067554a00ea7f920c6808366308c73976022e14ba5d6ae949
+
+Package: com.captinc.batchomatic
+Name: Batchomatic
+Author: Capt Inc <captinc37@gmail.com>
+Maintainer: Capt Inc <captinc37@gmail.com>
+Depends: mobilesubstrate, gawk, coreutils
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Batch-install your tweaks, repos, saved .debs, tweak preferences, and hosts file!
+Version: 3.2
+Installed-Size: 504
+Filename: ./debs/com.captinc.batchomatic_3.2_iphoneos-arm.deb
+Size: 53354
+MD5sum: 411c93150ebaf00f8b74b1dfaea191ea
+SHA256: b6aebfbe47d5f2246f283742a78b3e7ed5c26f424cf22e5fa73a5f8c7412521c
+
+Package: com.captinc.batchomatic
+Name: Batchomatic
+Author: Capt Inc <teamcaptinc@gmail.com>
+Maintainer: Capt Inc <teamcaptinc@gmail.com>
+Depends: firmware (>=11.0), mobilesubstrate, coreutils
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Batch-install your tweaks, repos, saved .debs, tweak preferences, and hosts file!
+Version: 4.0
+Installed-Size: 440
+Filename: ./debs/com.captinc.batchomatic_4.0_iphoneos-arm.deb
+Size: 50380
+MD5sum: 1f69e8e721bb072f12524607684a21fa
+SHA256: de5bc302f7650a7ea41c26e75aeb69a29d170551236c11979a57c7e5ee1cfd37
+
+Package: com.captinc.batchomatic
+Name: Batchomatic
+Author: Capt Inc <teamcaptinc@gmail.com>
+Maintainer: Capt Inc <teamcaptinc@gmail.com>
+Depends: firmware (>=11.0), mobilesubstrate, coreutils
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Batch install your tweaks, repos, saved .debs, tweak preferences, and hosts file!
+Version: 4.1.1
+Installed-Size: 440
+Filename: ./debs/com.captinc.batchomatic_4.1.1_iphoneos-arm.deb
+Size: 52256
+MD5sum: 02fea52ec754daf241040150c648aecb
+SHA256: c2ed7a3bd5b1e1cdad574d34c57081f32f31ba0952764328d0193b5c99454490
+
+Package: com.captinc.batchomatic
+Name: Batchomatic
+Author: Capt Inc <teamcaptinc@gmail.com>
+Maintainer: Capt Inc <teamcaptinc@gmail.com>
+Depends: firmware (>=11.0), mobilesubstrate, coreutils
+Architecture: iphoneos-arm
+Section: Tweaks
+Description: Batch install your tweaks, repos, saved .debs, tweak preferences, and hosts file!
+Version: 4.1
+Installed-Size: 440
+Filename: ./debs/com.captinc.batchomatic_4.1_iphoneos-arm.deb
+Size: 52396
+MD5sum: 909da1532a84ffabf12793117f4dbd52
+SHA256: 5dc89c63291fc2e8c14bf492482e2f8a7c00d3874aafbf173826170b49d16da1
+
+Package: com.captinc.batchomatic
+Name: Batchomatic
+Version: 4.2
+Depends: firmware (>=11.0), mobilesubstrate, coreutils
+Installed-Size: 448
+Author: Capt Inc <teamcaptinc@gmail.com>
+Maintainer: Capt Inc <teamcaptinc@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: Batch install your tweaks, repos, saved .debs, tweak preferences, and hosts file!
+Depiction: https://captinc.github.io/depictions/batchomatic/batchomatic.html
+Filename: ./debs/com.captinc.batchomatic_4.2_iphoneos-arm.deb
+Size: 60456
+MD5sum: fe8774c671a978dd88ad200b1564ffbd
+SHA256: f045283b70289fa84344ff7fda9e346a45a687e22104d85e3ef94c041d0403fe
+
 Package: com.captinc.cercubedarkmode
 Name: CercubeDarkMode
 Depends: firmware (>=11.0), mobilesubstrate, me.alfhaily.cercube

@@ -1,0 +1,179 @@
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <body style="background-color: #06213b">
+        <p align="center" class="title">Batchomatic</p>
+        <p align="center" class="txt">
+            Batch install your tweaks, repos, saved .debs, tweak preferences, and hosts file! All at once, online or offline. Can also remove all tweaks/repos, repack an installed tweak to a .deb, and add a respring/uicache button to each package manager. A real time saver!<br>
+            <br>
+            Compatible with iOS 11.0+. Works with Cydia, Zebra, Sileo, and Installer on unc0ver, checkra1n, Chimera, and unc0ver dark<br>
+            <br>
+            <a href="https://www.reddit.com/r/jailbreak/comments/cqarr6/release_batchomatic_v30_on_bigboss_batch_install/" target="_blank" style="color: #797CFB">Reddit post</a><br>
+            <a href="https://github.com/captinc/Batchomatic/" target="_blank" style="color: #797CFB">Source code</a><br>
+            </p>
+            
+        <p class="header" style="margin-top: 50px">Description</p>
+        <ul class="txt" style="margin-left: 50px">
+            <li>It works by creating a custom .deb that contains all of the necessary information. Then you install that .deb and my tweak does the rest</li>
+            <li>Works between package managers, jailbreaks, devices, and iOS versions (provided that your tweaks are compatible)</li>
+            <li>Get your perfect setup back within minutes!</li>
+            <li>This is useful for:</li>
+            <ol type="1" class="txt" style="margin-left: 10px">
+                <li>You have to Restore RootFS or DFU restore and don't want to spend time getting all of your tweaks back
+                <li>Backing up your setup
+                <li>Switching between jailbreaks
+                <li>Transferring your setup to another device
+                </ol>
+            </ul>
+        
+        <p class="header" style="margin-top: 50px">Creating your .deb</p>
+        <ol type="1" class="txt" style="margin-left: 50px">
+            <li>Go to the search tab in Cydia, Zebra, Sileo, or Installer</li>
+            <li>Tap the Batchomatic icon at the top left (steering wheel) and then tap "Create .deb". You choose whether to do online or offline</li>
+            <li>Done - your custom .deb is at /var/mobile/BatchomaticDebs. Keep it in a safe place like Google Drive</li>
+            </ol>
+        <ul class="txt">
+            <li>If you have any saved .debs of certain tweaks, place them in the "BatchomaticDebs/UserSavedDebs" folder and they will be automatically included</li>
+            </ul>
+
+        <p class="header" style="margin-top: 50px">Installing your .deb in the future</p>
+        <ol type="1" class="txt" style="margin-left: 50px">
+            <li>Install Batchomatic first</li>
+            <li>Go to the search tab in your package manager</li>
+            <li>Tap the Batchomatic icon at the top left (steering wheel) and then tap "Install .deb"</li>
+            <li>Choose what you want to be installed</li>
+            <li>Tap "Proceed"</li>
+            </ol>
+        <ul class="txt">
+            <li>If you have any paid tweaks, sign in to that repo's payment system before installing</li>
+            </ul>
+        
+        <p class="header" style="margin-top: 50px">Other features</p>
+        <ul class="txt" style="margin-left: 50px">
+            <li>Offline mode - saves .debs of your tweaks on their current version so you can install all of them offline and/or preserve their exact version</li>
+            <li>Editing .deb after creation</li>
+            <li>Remove all tweaks, with an option to keep basic tweaks like package managers, Filza, and Batchomatic itself (this is like my own version of Restore RootFS)</li>
+            <li>Remove all repos from the current package manager, with an option to keep utility repos and BigBoss</li>
+            <li>Add a respring/uicache button to each package manager</li>
+            <li>Repack an installed tweak to a .deb by running the following terminal command. It will be placed at /var/mobile/BatchomaticDebs</li>
+            <li><code style="color: #fe3280">bmd deb com.package.identifier</code></li>
+            </ul>
+        
+        <p class="header" style="margin-top: 50px">Screenshots</p>
+        <script src="screenshots.js" sender="batchomatic.html"></script>
+        
+        <p class="header" style="margin-top: 50px">Changelog</p>
+        <ol class="txt" style="list-style-type: none">
+            <li>v4.2 - released 02/02/2020</li>
+            <ul class="txt" style="margin-left: 50px; list-style-type: disc">
+                <li>Switch to an icon for the Batchomatic button</li>
+                <li>Add support for the latest version of Installer</li>
+                <li>Add “Remove all repos” feature</li>
+                <li>UI Improvements</li>
+                <li>Fix dark mode support</li>
+                <li>Fix ugly whitespace in the alerts</li>
+                <li>Bug fixes</li>
+                <li>Code improvements</li>
+                </ul>
+            <br>
+            <li>v4.1.1 - released 11/16/19</li>
+            <ul class="txt" style="margin-left: 50px; list-style-type: disc">
+                <li>Fixed Zebra crashing when queuing tweaks</li>
+                <li>Fixed Zebra not continuing after adding repos</li>
+                </ul>
+            <br>
+            <li>v4.1 - released 11/12/19</li>
+            <ul class="txt" style="margin-left: 50px; list-style-type: disc">
+                <li>Added checkra1n support</li>
+                <li>Added iOS 13 support</li>
+                <li>Improved code</li>
+                </ul>
+            <br>
+            <li>v4.0 - released 11/05/19</li>
+            <ul class="txt" style="margin-left: 50px; list-style-type: disc">
+                <li>New UI</li>
+                <li>Fixed "Unexpected end of file in archive member header"</li>
+                <li>Added checking to ensure .debs are created properly and notifies the user if it still fails for some reason</li>
+                <li>Fixed issues with .debs not being created/installed properly</li>
+                <li>Removed Gawk dependency</li>
+                <li>Added compatibility with the latest version of Sileo</li>
+                <li>Fixed adding repos freezing in Sileo</li>
+                <li>Fixed not queuing tweaks in Sileo because of a problem with BigBoss, Packix, and Dynastic</li>
+                <li>Fixed Zebra freezing while adding repos and/or not adding repos at all</li>
+                <li>Faster repo adding in Zebra</li>
+                <li>Faster time for "Install .deb"</li>
+                <li>sbreload for all supported iOS versions</li>
+                <li>Fixed not showing the unfindable tweaks screen</li>
+                <li>On the install screen, grey out the non-applicable switches instead of hiding them</li>
+                <li>Fixed random/ugly whitespace in the popups</li>
+                <li>Fixed lag when tapping "Install .deb" and "Help"</li>
+                <li>Added what iOS version a .deb is created on to the package description of BatchInstall</li>
+                <li>Updated what system tweaks to ignore</li>
+                <li>"batchdeb" is now "bmd deb com.package.name"</li>
+                <li>No more specifying an output path for "bmd deb". They are automatically saved in the "BatchomaticDebs" folder</li>
+                <li>Removed "Convert old .deb" because that was meant to be a temporary transitional measure</li>
+                <li>Removed 32-bit/iOS 10 support (sorry. it didn't work properly anyway)</li>
+                <li>Major code improvements</li>
+                </ul>
+            <br>
+            <li>v3.2 - released 08/31/19</li>
+            <ul class="txt" style="margin-left: 50px; list-style-type: disc">
+                <li>Added description to "Remove all tweaks"</li>
+                <li>Added Help button that links to the release post</li>
+                <li>Added ability to create a deb of a single tweak via a terminal command</li>
+                <li>Reorganized buttons</li>
+                <li>Now uses sbreload only on iOS 12.0+</li>
+                <li>Fixed "Create .deb" taking forever</li>
+                <li>Fixed not including files/folders that have spaces in their name when creating an offline deb</li>
+                <li>Fixed not installing all tweaks when installing an offline deb</li>
+                <li>Fixed half-installed packages when installing an offline deb</li>
+                <li>Fixed Sileo not showing the Batchomatic button when the system language is not English</li>
+                </ul>
+            <br>
+            <li>v3.1 - released 08/24/19</li>
+            <ul class="txt" style="margin-left: 50px; list-style-type: disc">
+                <li>Added ability to immediately share created .debs</li>
+                <li>Added progress messages to Create .deb, Create offline .deb, and Convert .deb</li>
+                <li>Added ability to keep Filza, package managers, and Batchomatic itself when using "Remove all tweaks" option</li>
+                <li>Now backs up all .list/.sources files</li>
+                <li>Changed naming scheme to specify online vs offline in the filename of batchinstall</li>
+                <li>Fixed trying to install Zebra's/Installer's .deb when using Zebra/Installer, which resulted in a crash</li>
+                <li>Fixed falsely saying "your .deb is in online mode" when in fact its not installed at all</li>
+                <li>Stomped on the bug that backed up com.you.batchinstall inside com.you.batchinstall</li>
+                <li>Blew up .DS_Store issues</li>
+                <li>Squashed the bug about not installing saved/offline debs</li>
+                <li>Taught Activator how to back up/restore its settings properly</li>
+                <li>Slaps Cydia when it displays "Half-installed packages" while using Batchomatic</li>
+                <li>Slaps Sileo when it doesn't show the Batchomatic button</li>
+                <li>Improved code</li>
+                </ul>
+            <br>
+            <li>v3.0.1 - released 08/14/19</li>
+            <ul class="txt" style="margin-left: 50px; list-style-type: disc">
+                <li>Fixed a UI bug</li>
+                </ul>
+            <br>
+            <li>v3.0 - released 08/14/19</li>
+            <ul class="txt" style="margin-left: 50px; list-style-type: disc">
+                <li>Initial release</li>
+                </ul>
+            </ol>
+        
+        <style>
+            .title {
+                font-size: 32px;
+                font-family: Helvetica Neue;
+                color: #FFFFFF;
+            }
+            .header {
+                font-size: 26px;
+                font-family: Helvetica Neue;
+                color: #FFFFFF;
+            }
+            .txt {
+                font-size: 18px;
+                font-family: Helvetica Neue;
+                color: #FFFFFF;
+            }
+            </style>
+        </body>
+    </html>
