@@ -30,6 +30,22 @@ Size: 9136
 MD5sum: 072ec08a783d81800c6d436a1e61a933
 SHA256: 34203eb181d9299a6ec668bf298a6a33c9b0439a58f676d0cce5749593ffefb6
 
+Package: com.captinc.commandmodule
+Name: CommandModule
+Version: 1.0
+Depends: firmware (>=11.0), mobilesubstrate, com.opa334.ccsupport
+Installed-Size: 420
+Author: Capt Inc <teamcaptinc@gmail.com>
+Maintainer: Capt Inc <teamcaptinc@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: Control Center module to run a shell script
+Depiction: https://captinc.github.io/depictions/commandmodule/commandmodule.html
+Filename: ./debs/com.captinc.commandmodule_1.0_iphoneos-arm.deb
+Size: 16292
+MD5sum: 7678dffca86a7c81d2096078d5a1f2dd
+SHA256: 50ab32f7d3d30155f71c94ea18cf47f6e91dd6079bf06b6f02522ce35ab7a5e1
+
 Package: com.captinc.darkmodetoggle
 Name: DarkModeToggle
 Version: 1.0
@@ -48,22 +64,6 @@ SHA256: 9912f92650c2bce398f8859fc0f2168d0c30787d9c58994330bbc6ee083f31ae
 
 Package: com.captinc.wallpaperchanger
 Name: WallpaperChanger
-Depends: firmware (>=11.0)
-Author: Capt Inc
-Maintainer: Capt Inc
-Section: Tweaks
-Architecture: iphoneos-arm
-Description: Change wallpaper from command line
-Depiction: https://captinc.github.io/depictions/wallpaperchanger.html
-Version: 1.0
-Installed-Size: 132
-Filename: ./debs/com.captinc.wallpaperchanger_1.0_iphoneos-arm.deb
-Size: 6656
-MD5sum: 1986c5cb9e9405081ee859aef3179919
-SHA256: 967d798a2ffd123c1843716d2eb9b25c314b73f02f5c99227cdc067d87f439a0
-
-Package: com.captinc.wallpaperchanger
-Name: WallpaperChanger
 Version: 1.0.1
 Depends: firmware (>=11.0)
 Installed-Size: 132
@@ -77,6 +77,22 @@ Filename: ./debs/com.captinc.wallpaperchanger_1.0.1_iphoneos-arm.deb
 Size: 6788
 MD5sum: 0568da0976996633be73f42bd1f89628
 SHA256: eff4a1e05cbedc8aa982d042949e533ad76ca44ac421cda7ff8b6a3584045118
+
+Package: com.captinc.wallpaperchanger
+Name: WallpaperChanger
+Depends: firmware (>=11.0)
+Author: Capt Inc
+Maintainer: Capt Inc
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: Change wallpaper from command line
+Depiction: https://captinc.github.io/depictions/wallpaperchanger.html
+Version: 1.0
+Installed-Size: 132
+Filename: ./debs/com.captinc.wallpaperchanger_1.0_iphoneos-arm.deb
+Size: 6656
+MD5sum: 1986c5cb9e9405081ee859aef3179919
+SHA256: 967d798a2ffd123c1843716d2eb9b25c314b73f02f5c99227cdc067d87f439a0
 
 Package: com.captinc.youtubedarkmodesync
 Name: YouTubeDarkModeSync
@@ -93,3 +109,4 @@ Filename: ./debs/com.captinc.youtubedarkmodesync_1.0_iphoneos-arm.deb
 Size: 5004
 MD5sum: e5e6cd2b8898cd3a3ae461d834501273
 SHA256: b9e90eddd811e53d6c93e05d47e7f2d5e05c4dfa8917c8ff23a54468534c5fb9
+
