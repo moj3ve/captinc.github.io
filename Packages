@@ -153,6 +153,22 @@ SHA256: 34203eb181d9299a6ec668bf298a6a33c9b0439a58f676d0cce5749593ffefb6
 
 Package: com.captinc.commandmodule
 Name: CommandModule
+Version: 1.0.1
+Depends: firmware (>=11.0), mobilesubstrate, com.opa334.ccsupport
+Installed-Size: 420
+Author: Capt Inc <teamcaptinc@gmail.com>
+Maintainer: Capt Inc <teamcaptinc@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: Control Center module to run a shell script
+Depiction: https://captinc.github.io/depictions/commandmodule/commandmodule.html
+Filename: ./debs/com.captinc.commandmodule_1.0.1_iphoneos-arm.deb
+Size: 16264
+MD5sum: 668f76f282c03367fdbbb1ecd7719a97
+SHA256: 2c0c7ac15448f673d3fac5a89dd819857541967cd9d7c04dd08053f5eb6f4075
+
+Package: com.captinc.commandmodule
+Name: CommandModule
 Version: 1.0
 Depends: firmware (>=11.0), mobilesubstrate, com.opa334.ccsupport
 Installed-Size: 420
