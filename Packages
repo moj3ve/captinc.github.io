@@ -105,6 +105,22 @@ SHA256: 5dc89c63291fc2e8c14bf492482e2f8a7c00d3874aafbf173826170b49d16da1
 
 Package: com.captinc.batchomatic
 Name: Batchomatic
+Version: 4.2.1
+Depends: firmware (>=11.0), mobilesubstrate, coreutils
+Installed-Size: 448
+Author: Capt Inc <teamcaptinc@gmail.com>
+Maintainer: Capt Inc <teamcaptinc@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: Batch install your tweaks, repos, saved .debs, tweak preferences, and hosts file!
+Depiction: https://captinc.github.io/depictions/batchomatic/batchomatic.html
+Filename: ./debs/com.captinc.batchomatic_4.2.1_iphoneos-arm.deb
+Size: 60576
+MD5sum: 849428fbcf1f37e5ac9e5636622c9f58
+SHA256: 94821c7f41502ef7092e6598725ed7138e4befc481ec697b89cc2a8aeefa5650
+
+Package: com.captinc.batchomatic
+Name: Batchomatic
 Version: 4.2
 Depends: firmware (>=11.0), mobilesubstrate, coreutils
 Installed-Size: 448
