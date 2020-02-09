@@ -231,3 +231,19 @@ Size: 5004
 MD5sum: e5e6cd2b8898cd3a3ae461d834501273
 SHA256: b9e90eddd811e53d6c93e05d47e7f2d5e05c4dfa8917c8ff23a54468534c5fb9
 
+Package: com.captinc.youtubedarkmodesync
+Name: YouTubeDarkModeSync
+Version: 1.1
+Depends: firmware (>=13.0), mobilesubstrate
+Installed-Size: 168
+Author: Capt Inc <teamcaptinc@gmail.com>
+Maintainer: Capt Inc <teamcaptinc@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: Toggle YouTube's built-in dark mode with iOS 13's dark mode
+Depiction: https://captinc.github.io/depictions/youtubedarkmodesync.html
+Filename: ./debs/com.captinc.youtubedarkmodesync_1.1_iphoneos-arm.deb
+Size: 4564
+MD5sum: e6b29f45a6944152405ed8619773409c
+SHA256: 9084fd433e5a67b0f4b12673d79a3bbc148218cfa02ac47a064c8335ecad6c67
+
