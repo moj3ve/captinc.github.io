@@ -1,36 +1,69 @@
 <html>
-    <body background="./siteresources/background.png" style="background-size: cover; background-position: center">
-         <p align="center" style="margin-top: 100px"> <img src="./siteresources/header.png"> </p>
-         <p align="center" class="txt">Cydia repo</p>
-         <p align="center" style="margin-top: 100px"> <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://captinc.github.io/" class="btn">Add to Cydia</a> </p>
-         <p align="center" style="margin-top: 50px"> <img src="./siteresources/logo.png" class="logo"> </p>
-         
-         <style>
-             .txt {
-                 font-size: 32px;
-                 font-family: sans-serif;
-                 color: #282828;
-             }
-             .btn {
-                 margin-top: 100px;
-                 font-size: 22px;
-                 font-family: Helvetica Neue;
-                 color: #FFFFFF;
-                 text-decoration: none;
-                 border-radius: 30px;
-                 padding-top: 16px;
-                 padding-bottom: 16px;
-                 padding-left: 25px;
-                 padding-right: 25px;
-                 background-color: #000000;
-             }
-             a:hover {
-                 background-color: #1353e6;
-             }
-             .logo {
-                 width: 25%;
-                 height: auto;
-             }
-             </style>
-         </body>
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <body style="background-color: #06213b">
+        <p align="center"><img src="./siteresources/header.png"></p>
+
+        <p align="center" style="margin-top: 40px"><a class="addButton" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://captinc.github.io">Add to Cydia</a></p>
+        <p align="center"><a class="addButton" href="zbra://sources/add/url/https://captinc.github.io">Add to Zebra</a></p>
+        <p align="center"><a class="addButton" href="sileo://source/https://captinc.github.io">Add to Sileo</a></p>
+        <p align="center"><a class="addButton" href="installer://add/repo=https://captinc.github.io">Add to Installer</a></p>
+
+        <p align="center" class="header">Tweaks</p>
+        <p align="center"><a class="tweakButton" href="https://captinc.github.io/depictions/batchomatic/batchomatic.html">Batchomatic</a></p>
+        <p align="center"><a class="tweakButton" href="https://captinc.github.io/depictions/darkmodetoggle/darkmodetoggle.html">DarkModeToggle</a></p>
+        <p align="center"><a class="tweakButton" href="https://captinc.github.io/depictions/youtubedarkmodesync.html">YouTubeDarkModeSync</a></p>
+        <p align="center"><a class="tweakButton" href="https://captinc.github.io/depictions/cercubedarkmode/cercubedarkmode.html">CercubeDarkMode</a></p>
+        <p align="center"><a class="tweakButton" href="https://captinc.github.io/depictions/commandmodule/commandmodule.html">CommandModule</a></p>
+        <p align="center"><a class="tweakButton" href="https://captinc.github.io/depictions/wallpaperchanger.html">WallpaperChanger</a></p>
+        
+        <p align="center"><img class="logo" src="./siteresources/logo.png"></p>
+            
+        <style>
+            img {
+                display: block;
+                max-width: 90%;
+                max-height: 100%;
+            }
+            .addButton {
+                display: block;
+                width: 200px;
+                height: auto;
+                font-size: 22px;
+                font-family: Helvetica Neue;
+                color: #FFFFFF;
+                text-decoration: none;
+                border-radius: 20px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-left: 15px;
+                padding-right: 15px;
+                background-color: #22aeb5;
+            }
+            .header {
+                margin-top: 75px;
+                font-size: 40px;
+                font-family: Helvetica Neue;
+                color: #FFFFFF;
+            }
+            .tweakButton {
+                display: block;
+                width: 250px;
+                height: auto;
+                font-size: 22px;
+                font-family: Helvetica Neue;
+                color: #FFFFFF;
+                text-decoration: none;
+                border-radius: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                background-color: #50ba4e;
+            }
+            .logo {
+                max-width: 60%;
+                height: auto;
+            }
+            </style>
+        </body>
     </html>
