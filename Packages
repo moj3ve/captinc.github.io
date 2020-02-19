@@ -233,6 +233,22 @@ SHA256: cf11b4f5671d22a1c8aacd63e9c7e45c8cc16f2e05bc1ce238d2a1805e971d68
 
 Package: com.captinc.mobilegoosemodule
 Name: MobileGooseModule
+Version: 1.0.1
+Depends: firmware (>=11.0), mobilesubstrate, com.opa334.ccsupport, com.pixelomer.mobilegoose
+Installed-Size: 160
+Author: Capt Inc <teamcaptinc@gmail.com>
+Maintainer: Capt Inc <teamcaptinc@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: Control Center module to toggle MobileGoose
+Depiction: https://captinc.github.io/depictions/mobilegoosemodule/mobilegoosemodule.html
+Filename: ./debs/com.captinc.mobilegoosemodule_1.0.1_iphoneos-arm.deb
+Size: 14228
+MD5sum: 2984e912ee5488256560857f1a08f75b
+SHA256: 01d823f3bafefe58a796950240366acab55dd51517fbe8471a38ab1b15a38157
+
+Package: com.captinc.mobilegoosemodule
+Name: MobileGooseModule
 Version: 1.0
 Depends: firmware (>=11.0), mobilesubstrate, com.opa334.ccsupport
 Installed-Size: 160
