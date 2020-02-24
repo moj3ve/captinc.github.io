@@ -1,4 +1,4 @@
-var numberOfScreenshots = 1; //To re-use this code in other depictions, I only need to change this variable
+var numberOfScreenshots = 2; //To re-use this code in other depictions, I only need to change this variable
 
 for (var i = 1; i <= numberOfScreenshots; i++) {
     var img = new Image();
