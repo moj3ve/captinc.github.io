@@ -247,6 +247,22 @@ Size: 59936
 MD5sum: e79dc1ad27ee2e78514474ea02a8edec
 SHA256: cf11b4f5671d22a1c8aacd63e9c7e45c8cc16f2e05bc1ce238d2a1805e971d68
 
+Package: com.captinc.darkmodetoggle
+Name: DarkModeToggle
+Version: 1.2
+Depends: firmware (>=11.0), mobilesubstrate, com.opa334.ccsupport, preferenceloader
+Installed-Size: 832
+Author: Capt Inc <teamcaptinc@gmail.com>
+Maintainer: Capt Inc <teamcaptinc@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: Enable/disable specific tweaks when toggling dark mode
+Depiction: https://captinc.github.io/depictions/darkmodetoggle/darkmodetoggle.html
+Filename: ./debs/com.captinc.darkmodetoggle_1.2_iphoneos-arm.deb
+Size: 68720
+MD5sum: 465d6e2c3ef704b464bf1ec993ff95f0
+SHA256: ea77ec1cf49204515b42e68a2b20072fff4f3cbabbae12d3d3cfea7ecc08d7cd
+
 Package: com.captinc.mobilegoosemodule
 Name: MobileGooseModule
 Version: 1.0.1
