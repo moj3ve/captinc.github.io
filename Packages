@@ -135,6 +135,22 @@ Size: 60456
 MD5sum: fe8774c671a978dd88ad200b1564ffbd
 SHA256: f045283b70289fa84344ff7fda9e346a45a687e22104d85e3ef94c041d0403fe
 
+Package: com.captinc.batchomatic
+Name: Batchomatic
+Version: 4.3
+Depends: firmware (>=11.0), mobilesubstrate, coreutils
+Installed-Size: 484
+Author: Capt Inc <teamcaptinc@gmail.com>
+Maintainer: Capt Inc <teamcaptinc@gmail.com>
+Section: Tweaks
+Architecture: iphoneos-arm
+Description: Batch install your tweaks, repos, saved .debs, tweak preferences, and hosts file!
+Depiction: https://captinc.github.io/depictions/batchomatic/batchomatic.html
+Filename: ./debs/com.captinc.batchomatic_4.3_iphoneos-arm.deb
+Size: 65868
+MD5sum: f3f3fc9dece76be59f1eef0a7adf682d
+SHA256: 86be1814b43d9f352af27ee5ffd52c452292bf76fe7bf159b7fb7c2637f7593c
+
 Package: com.captinc.cercubedarkmode
 Name: CercubeDarkMode
 Depends: firmware (>=11.0), mobilesubstrate, me.alfhaily.cercube
